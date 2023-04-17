@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>How did you get here?</title>
+    <style>
+        body {
+            background-image: url('image.jpg'); /* replace 'image.jpg' with the URL of your desired image */
+            background-size: cover;
+            background-position: center;
+            text-align: center;
+        }
+        h1 {
+            font-size: 48px;
+            color: #ffffff;
+            margin-top: 200px;
+        }
+        h2 {
+            font-size: 24px;
+            color: #ffffff;
+            margin-top: 30px;
+        }
+        .links {
+            margin-top: 50px;
+        }
+        .links a {
+            display: inline-block;
+            margin: 10px;
+            padding: 10px 20px;
+            font-size: 18px;
+            text-decoration: none;
+            color: #ffffff;
+            background-color: #007bff;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>How did you get here?</h1>
+    <h2>If Charles gave you this link, then you're good. If he didn't, leave.</h2>
+    <div class="links">
+        <a href="http://truenas.dybpservers.com/" target="_blank"><h3>TrueNAS</h3></a>
+        <a href="https://filebrowser.dybpservers.com/" target="_blank"><h3>FileBrowser</h3></a>
+    </div>
+</body>
+</html>
